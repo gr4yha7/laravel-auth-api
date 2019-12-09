@@ -22,7 +22,7 @@ class CreateUsersTable extends Migration
             $table->string('address');
             $table->dateTime('dob');
             $table->enum('gender', ['male', 'female']);
-            $table->string('phone_number');
+            $table->string('phone_number')->unique();
             $table->json('roles');
             $table->rememberToken();
             $table->timestamps();

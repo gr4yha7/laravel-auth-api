@@ -17,7 +17,6 @@ class CreateCoursesTable extends Migration
             $table->bigIncrements('id');
             $table->string('title');
             $table->unsignedInteger('duration');
-            $table->unsignedInteger('course_category_id');
             $table->unsignedInteger('facilitator_id');
             $table->timestamps();
         });

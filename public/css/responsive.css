@@ -8,8 +8,7 @@
 }
 
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .vpWidth {
@@ -1938,212 +1937,210 @@ ul.h-menu li {
   padding-top: 25px;
   margin: 0;
   border-radius: 7px;
-  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.14);
-          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.14);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.14);
   cursor: pointer;
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 @font-face {
-  src: url("../../lib/fonts/Poppins-Regular.ttf");
+  src: url("/vendor/fonts/Poppins-Regular.ttf");
   font-style: normal;
   font-weight: normal;
   font-family: "Poppins";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Quicksand-VariableFont_wght.ttf");
+  src: url("/vendor/fonts/Quicksand-VariableFont_wght.ttf");
   font-family: "QuickSand";
 }
 
 @font-face {
-  src: url("../../lib/fonts/sqmarket-medium.ttf");
+  src: url("/vendor/fonts/sqmarket-medium.ttf");
   font-family: "SQMarket";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Poppins-Italic.ttf");
+  src: url("/vendor/fonts/Poppins-Italic.ttf");
   font-style: italic;
   font-weight: normal;
   font-family: "Poppins";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Poppins-Bold.ttf");
+  src: url("/vendor/fonts/Poppins-Bold.ttf");
   font-style: normal;
   font-weight: bold;
   font-family: "Poppins";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Poppins-BoldItalic.ttf");
+  src: url("/vendor/fonts/Poppins-BoldItalic.ttf");
   font-style: italic;
   font-weight: bold;
   font-family: "Poppins";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Poppins-Light.ttf");
+  src: url("/vendor/fonts/Poppins-Light.ttf");
   font-style: normal;
   font-weight: 200;
   font-family: "Poppins";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Poppins-LightItalic.ttf");
+  src: url("/vendor/fonts/Poppins-LightItalic.ttf");
   font-style: italic;
   font-weight: 200;
   font-family: "Poppins";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Raleway-Regular.ttf");
+  src: url("/vendor/fonts/Raleway-Regular.ttf");
   font-style: normal;
   font-weight: normal;
   font-family: "Raleway";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Raleway-Italic.ttf");
+  src: url("/vendor/fonts/Raleway-Italic.ttf");
   font-style: italic;
   font-weight: normal;
   font-family: "Raleway";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Raleway-Bold.ttf");
+  src: url("/vendor/fonts/Raleway-Bold.ttf");
   font-style: normal;
   font-weight: bold;
   font-family: "Raleway";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Raleway-BoldItalic.ttf");
+  src: url("/vendor/fonts/Raleway-BoldItalic.ttf");
   font-style: italic;
   font-weight: bold;
   font-family: "Raleway";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Raleway-Light.ttf");
+  src: url("/vendor/fonts/Raleway-Light.ttf");
   font-style: normal;
   font-weight: 200;
   font-family: "Raleway";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Raleway-LightItalic.ttf");
+  src: url("/vendor/fonts/Raleway-LightItalic.ttf");
   font-style: italic;
   font-weight: 200;
   font-family: "Raleway";
 }
 
 @font-face {
-  src: url("../../lib/fonts/OpenSans-Regular.ttf");
+  src: url("/vendor/fonts/OpenSans-Regular.ttf");
   font-style: normal;
   font-weight: normal;
   font-family: "Open Sans";
 }
 
 @font-face {
-  src: url("../../lib/fonts/OpenSans-Italic.ttf");
+  src: url("/vendor/fonts/OpenSans-Italic.ttf");
   font-style: italic;
   font-weight: normal;
   font-family: "Open Sans";
 }
 
 @font-face {
-  src: url("../../lib/fonts/OpenSans-Bold.ttf");
+  src: url("/vendor/fonts/OpenSans-Bold.ttf");
   font-style: normal;
   font-weight: bold;
   font-family: "Open Sans";
 }
 
 @font-face {
-  src: url("../../lib/fonts/OpenSans-BoldItalic.ttf");
+  src: url("/vendor/fonts/OpenSans-BoldItalic.ttf");
   font-style: italic;
   font-weight: bold;
   font-family: "Open Sans";
 }
 
 @font-face {
-  src: url("../../lib/fonts/OpenSans-Light.ttf");
+  src: url("/vendor/fonts/OpenSans-Light.ttf");
   font-style: normal;
   font-weight: 200;
   font-family: "Open Sans";
 }
 
 @font-face {
-  src: url("../../lib/fonts/OpenSans-LightItalic.ttf");
+  src: url("/vendor/fonts/OpenSans-LightItalic.ttf");
   font-style: italic;
   font-weight: 200;
   font-family: "Open Sans";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Montserrat-Regular.ttf");
+  src: url("/vendor/fonts/Montserrat-Regular.ttf");
   font-style: normal;
   font-weight: normal;
   font-family: "Montserrat";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Montserrat-Italic.ttf");
+  src: url("/vendor/fonts/Montserrat-Italic.ttf");
   font-style: italic;
   font-weight: normal;
   font-family: "Montserrat";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Montserrat-Bold.ttf");
+  src: url("/vendor/fonts/Montserrat-Bold.ttf");
   font-style: normal;
   font-weight: bold;
   font-family: "Montserrat";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Montserrat-BoldItalic.ttf");
+  src: url("/vendor/fonts/Montserrat-BoldItalic.ttf");
   font-style: italic;
   font-weight: bold;
   font-family: "Montserrat";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Montserrat-Light.ttf");
+  src: url("/vendor/fonts/Montserrat-Light.ttf");
   font-style: normal;
   font-weight: 200;
   font-family: "Montserrat";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Montserrat-LightItalic.ttf");
+  src: url("/vendor/fonts/Montserrat-LightItalic.ttf");
   font-style: italic;
   font-weight: 200;
   font-family: "Montserrat";
 }
 
 @font-face {
-  font-family: 'Circular STD';
-  src: url("../../lib/fonts/CircularStdFont.otf");
+  font-family: "Circular STD";
+  src: url("/vendor/fonts/CircularStdFont.otf");
 }
 
 @font-face {
   font-family: "Cartogothic STD";
-  src: url("../../lib/fonts/cartogothic_std.otf");
+  src: url("/vendor/fonts/cartogothic_std.otf");
 }
 
 .catamaran {
-  font-family: 'Catamaran', sans-serif;
+  font-family: "Catamaran", sans-serif;
 }
 
 .circular {
-  font-family: 'Circular STD', sans-serif;
+  font-family: "Circular STD", sans-serif;
 }
 
 .cartogothic {
-  font-family: 'Cartogothic STD', sans-serif;
+  font-family: "Cartogothic STD", sans-serif;
 }
 
 .poppins {
@@ -2172,15 +2169,13 @@ ul.h-menu li {
 
 @media only screen and (min-width: 1200px) {
   .card-grid {
-    -ms-grid-columns: (minmax(350px, 1fr))[3];
-        grid-template-columns: repeat(3, minmax(350px, 1fr));
+    grid-template-columns: repeat(3, minmax(350px, 1fr));
   }
 }
 
 @media only screen and (min-width: 1000px) {
   .tut-grid {
-    -ms-grid-columns: (minmax(180px, 1fr))[4];
-        grid-template-columns: repeat(4, minmax(180px, 1fr));
+    grid-template-columns: repeat(4, minmax(180px, 1fr));
   }
 }
 
@@ -2188,9 +2183,11 @@ ul.h-menu li {
   #backgroundVideo .hero-content .banner-text {
     font-size: 5rem;
   }
+
   #backgroundVideo .hero-content h1 {
     font-size: 3rem;
   }
+
   div.section-2 .colored {
     padding-left: 50px;
   }
@@ -2206,6 +2203,7 @@ ul.h-menu li {
   #backgroundVideo .hero-content .banner-text {
     margin-bottom: 40px;
   }
+
   .teach-learn-section h2.title-h2 {
     font-size: 1.85rem;
   }
@@ -2215,15 +2213,19 @@ ul.h-menu li {
   #backgroundVideo .hero-content .banner-text {
     font-size: 4rem;
   }
+
   #backgroundVideo .hero-content h1 {
     font-size: 2.5rem;
   }
+
   .category-section .category-card p {
     font-size: 16px;
   }
+
   .category-section .category-card img {
     height: 30px;
   }
+
   .owl-carousel p {
     font-size: 17px;
   }
@@ -2231,8 +2233,7 @@ ul.h-menu li {
 
 @media only screen and (max-width: 930px) {
   .card-grid {
-    -ms-grid-columns: (minmax(250px, 1fr))[auto-fill];
-        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   }
 }
 
@@ -2240,26 +2241,33 @@ ul.h-menu li {
   .hero {
     height: 150vh;
   }
+
   .hero #backgroundVideo .hero-content {
     height: 150vh;
   }
+
   .hero #backgroundVideo .hero-content .banner-text {
     font-size: 3.56rem;
   }
+
   .hero #backgroundVideo .hero-content h1 {
     font-size: 2.25rem;
   }
+
   .hero #backgroundVideo .hero-content p {
     font-size: 19px;
   }
+
   .hero #backgroundVideo .hero-content input {
     font-size: 16px;
   }
+
   .hero #backgroundVideo .videoContainer {
     height: 150vh;
     min-height: 450px;
     width: 100%;
   }
+
   .hero #backgroundVideo video {
     height: 150vh;
     min-height: 450px;
@@ -2271,7 +2279,7 @@ ul.h-menu li {
 
 @media only screen and (max-width: 847px) {
   div.section-3 .courseNav a {
-    font-size: .85rem;
+    font-size: 0.85rem;
   }
 }
 
@@ -2279,9 +2287,11 @@ ul.h-menu li {
   div.section-2 .colored .intro-title {
     font-size: 2.5rem;
   }
+
   div.section-3 h1 {
     font-size: 2.25rem;
   }
+
   .parallax-section .parallax-content h1 {
     font-size: 2.75rem;
   }
@@ -2289,9 +2299,9 @@ ul.h-menu li {
 
 @media only screen and (max-width: 770px) {
   .category-grid {
-    -ms-grid-columns: (minmax(210px, 1fr))[auto-fill];
-        grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
   }
+
   .owl-carousel p {
     font-size: 15px;
   }
@@ -2301,6 +2311,7 @@ ul.h-menu li {
   div.uniform-square {
     margin-bottom: 20px;
   }
+
   .intro-background {
     display: none;
   }
@@ -2311,17 +2322,18 @@ ul.h-menu li {
     font-size: 3rem;
     margin-bottom: 20px;
   }
+
   div.section-3 .courseNav a {
-    font-size: .75rem;
+    font-size: 0.75rem;
   }
 }
 
 @media only screen and (min-width: 690px) {
   div.section-3 .courseNav {
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
+
   div.section-3 .courseSelect {
     display: none;
   }
@@ -2331,9 +2343,9 @@ ul.h-menu li {
   div.section-3 .courseNav {
     display: none;
   }
+
   div.section-3 .courseSelect {
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
 }
@@ -2343,10 +2355,12 @@ ul.h-menu li {
     width: 100%;
     height: 130vh;
   }
+
   #backgroundVideo .videoContainer {
     height: 130vh;
     width: 100%;
   }
+
   #backgroundVideo video {
     height: 130vh;
     width: 100%;
@@ -2359,6 +2373,7 @@ ul.h-menu li {
   h1.sqmarket {
     font-size: 2rem;
   }
+
   div.section-3 h1 {
     font-size: 2rem;
   }
@@ -2368,6 +2383,7 @@ ul.h-menu li {
   .parallax-section .parallax-content h1 {
     font-size: 2.55rem;
   }
+
   .teach-learn-section h2.title-h2 {
     font-size: 1.45rem;
   }
@@ -2377,21 +2393,27 @@ ul.h-menu li {
   .parallax-section .parallax-content h1 {
     font-size: 2.25rem;
   }
+
   h1.sqmarket {
     font-size: 1.75rem;
   }
+
   .hero #backgroundVideo .hero-content .banner-text {
     font-size: 2.75rem;
   }
+
   .hero #backgroundVideo .hero-content h1 {
     font-size: 2rem;
   }
+
   .hero #backgroundVideo .hero-content p {
     font-size: 18px;
   }
+
   .hero #backgroundVideo .hero-content input {
     font-size: 15px;
   }
+
   div.section-2 .colored .intro-title {
     font-size: 2.25rem;
   }
@@ -2399,9 +2421,9 @@ ul.h-menu li {
 
 @media only screen and (max-width: 415px) {
   .copy-right {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
+
   .copy-right .social {
     margin-top: 15px;
   }
@@ -2411,6 +2433,7 @@ ul.h-menu li {
   .hero #backgroundVideo .hero-content .banner-text {
     font-size: 2.25rem;
   }
+
   .hero #backgroundVideo .hero-content h1 {
     font-size: 1.8rem;
   }
@@ -2420,11 +2443,13 @@ ul.h-menu li {
   .hero #backgroundVideo .hero-content .banner-text {
     font-size: 2rem;
   }
+
   .hero #backgroundVideo .hero-content h1 {
     font-size: 1.7rem;
   }
+
   div.section-2 .colored .intro-title {
     font-size: 2rem;
   }
 }
-/*# sourceMappingURL=responsive.css.map */
+

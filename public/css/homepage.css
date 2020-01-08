@@ -8,8 +8,7 @@
 }
 
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .vpWidth {
@@ -1938,219 +1937,226 @@ ul.h-menu li {
   padding-top: 25px;
   margin: 0;
   border-radius: 7px;
-  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.14);
-          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.14);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.14);
   cursor: pointer;
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 @font-face {
-  src: url("../../lib/fonts/Poppins-Regular.ttf");
+  src: url("/vendor/fonts/Poppins-Regular.ttf");
   font-style: normal;
   font-weight: normal;
   font-family: "Poppins";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Quicksand-VariableFont_wght.ttf");
+  src: url("/vendor/fonts/Quicksand-VariableFont_wght.ttf");
   font-family: "QuickSand";
 }
 
 @font-face {
-  src: url("../../lib/fonts/sqmarket-medium.ttf");
+  src: url("/vendor/fonts/sqmarket-medium.ttf");
   font-family: "SQMarket";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Poppins-Italic.ttf");
+  src: url("/vendor/fonts/Poppins-Italic.ttf");
   font-style: italic;
   font-weight: normal;
   font-family: "Poppins";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Poppins-Bold.ttf");
+  src: url("/vendor/fonts/Poppins-Bold.ttf");
   font-style: normal;
   font-weight: bold;
   font-family: "Poppins";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Poppins-BoldItalic.ttf");
+  src: url("/vendor/fonts/Poppins-BoldItalic.ttf");
   font-style: italic;
   font-weight: bold;
   font-family: "Poppins";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Poppins-Light.ttf");
+  src: url("/vendor/fonts/Poppins-Light.ttf");
   font-style: normal;
   font-weight: 200;
   font-family: "Poppins";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Poppins-LightItalic.ttf");
+  src: url("/vendor/fonts/Poppins-LightItalic.ttf");
   font-style: italic;
   font-weight: 200;
   font-family: "Poppins";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Raleway-Regular.ttf");
+  src: url("/vendor/fonts/Raleway-Regular.ttf");
   font-style: normal;
   font-weight: normal;
   font-family: "Raleway";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Raleway-Italic.ttf");
+  src: url("/vendor/fonts/Raleway-Italic.ttf");
   font-style: italic;
   font-weight: normal;
   font-family: "Raleway";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Raleway-Bold.ttf");
+  src: url("/vendor/fonts/Raleway-Bold.ttf");
   font-style: normal;
   font-weight: bold;
   font-family: "Raleway";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Raleway-BoldItalic.ttf");
+  src: url("/vendor/fonts/Raleway-BoldItalic.ttf");
   font-style: italic;
   font-weight: bold;
   font-family: "Raleway";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Raleway-Light.ttf");
+  src: url("/vendor/fonts/Raleway-Light.ttf");
   font-style: normal;
   font-weight: 200;
   font-family: "Raleway";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Raleway-LightItalic.ttf");
+  src: url("/vendor/fonts/Raleway-LightItalic.ttf");
   font-style: italic;
   font-weight: 200;
   font-family: "Raleway";
 }
 
 @font-face {
-  src: url("../../lib/fonts/OpenSans-Regular.ttf");
+  src: url("/vendor/fonts/OpenSans-Regular.ttf");
   font-style: normal;
   font-weight: normal;
   font-family: "Open Sans";
 }
 
 @font-face {
-  src: url("../../lib/fonts/OpenSans-Italic.ttf");
+  src: url("/vendor/fonts/OpenSans-Italic.ttf");
   font-style: italic;
   font-weight: normal;
   font-family: "Open Sans";
 }
 
 @font-face {
-  src: url("../../lib/fonts/OpenSans-Bold.ttf");
+  src: url("/vendor/fonts/OpenSans-Bold.ttf");
   font-style: normal;
   font-weight: bold;
   font-family: "Open Sans";
 }
 
 @font-face {
-  src: url("../../lib/fonts/OpenSans-BoldItalic.ttf");
+  src: url("/vendor/fonts/OpenSans-BoldItalic.ttf");
   font-style: italic;
   font-weight: bold;
   font-family: "Open Sans";
 }
 
 @font-face {
-  src: url("../../lib/fonts/OpenSans-Light.ttf");
+  src: url("/vendor/fonts/OpenSans-Light.ttf");
   font-style: normal;
   font-weight: 200;
   font-family: "Open Sans";
 }
 
 @font-face {
-  src: url("../../lib/fonts/OpenSans-LightItalic.ttf");
+  src: url("/vendor/fonts/OpenSans-LightItalic.ttf");
   font-style: italic;
   font-weight: 200;
   font-family: "Open Sans";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Montserrat-Regular.ttf");
+  src: url("/vendor/fonts/Montserrat-Regular.ttf");
   font-style: normal;
   font-weight: normal;
   font-family: "Montserrat";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Montserrat-Italic.ttf");
+  src: url("/vendor/fonts/Montserrat-Italic.ttf");
   font-style: italic;
   font-weight: normal;
   font-family: "Montserrat";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Montserrat-Bold.ttf");
+  src: url("/vendor/fonts/Montserrat-Bold.ttf");
   font-style: normal;
   font-weight: bold;
   font-family: "Montserrat";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Montserrat-BoldItalic.ttf");
+  src: url("/vendor/fonts/Montserrat-BoldItalic.ttf");
   font-style: italic;
   font-weight: bold;
   font-family: "Montserrat";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Montserrat-Light.ttf");
+  src: url("/vendor/fonts/Montserrat-Light.ttf");
   font-style: normal;
   font-weight: 200;
   font-family: "Montserrat";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Montserrat-LightItalic.ttf");
+  src: url("/vendor/fonts/Montserrat-LightItalic.ttf");
   font-style: italic;
   font-weight: 200;
   font-family: "Montserrat";
 }
 
 @font-face {
-  font-family: 'Circular STD';
-  src: url("../../lib/fonts/CircularStdFont.otf");
+  font-family: "Circular STD";
+  src: url("/vendor/fonts/CircularStdFont.otf");
 }
 
 @font-face {
   font-family: "Cartogothic STD";
-  src: url("../../lib/fonts/cartogothic_std.otf");
+  src: url("/vendor/fonts/cartogothic_std.otf");
 }
 
 .catamaran {
-  font-family: 'Catamaran', sans-serif;
+  font-family: "Catamaran", sans-serif;
 }
 
 .circular {
-  font-family: 'Circular STD', sans-serif;
+  font-family: "Circular STD", sans-serif;
 }
 
-.cartogothic, .courseSelect select {
-  font-family: 'Cartogothic STD', sans-serif;
+.cartogothic,
+.courseSelect select {
+  font-family: "Cartogothic STD", sans-serif;
 }
 
 .poppins {
   font-family: "Poppins", sans-serif;
 }
 
-.montserrat, nav input, nav a, div.section-2 .colored .intro-text, div.section-2 .colored a, div.section-3 .courseNav > div a, div.section-3 .tut-card .body .price, .teach-learn-section h2.title-h2, .teach-learn-section .parent p {
+.montserrat,
+.teach-learn-section .parent p,
+.teach-learn-section h2.title-h2,
+div.section-3 .tut-card .body .price,
+div.section-3 .courseNav > div a,
+div.section-2 .colored a,
+div.section-2 .colored .intro-text,
+nav a,
+nav input {
   font-family: "Montserrat", sans-serif;
 }
 
@@ -2162,7 +2168,13 @@ ul.h-menu li {
   font-family: "Open Sans", sans-serif;
 }
 
-.quicksand, .drawer .divider, .drawer a, .parallax-section .parallax-content p, .teach-learn-section .parent h3, .teach-learn-section .parent a, .final-call-to-action a {
+.quicksand,
+.final-call-to-action a,
+.teach-learn-section .parent a,
+.teach-learn-section .parent h3,
+.parallax-section .parallax-content p,
+.drawer a,
+.drawer .divider {
   font-family: "QuickSand", sans-serif;
 }
 
@@ -2180,8 +2192,7 @@ ul.h-menu li {
 }
 
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .vpWidth {
@@ -4110,219 +4121,226 @@ ul.h-menu li {
   padding-top: 25px;
   margin: 0;
   border-radius: 7px;
-  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.14);
-          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.14);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.14);
   cursor: pointer;
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 @font-face {
-  src: url("../../lib/fonts/Poppins-Regular.ttf");
+  src: url("/vendor/fonts/Poppins-Regular.ttf");
   font-style: normal;
   font-weight: normal;
   font-family: "Poppins";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Quicksand-VariableFont_wght.ttf");
+  src: url("/vendor/fonts/Quicksand-VariableFont_wght.ttf");
   font-family: "QuickSand";
 }
 
 @font-face {
-  src: url("../../lib/fonts/sqmarket-medium.ttf");
+  src: url("/vendor/fonts/sqmarket-medium.ttf");
   font-family: "SQMarket";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Poppins-Italic.ttf");
+  src: url("/vendor/fonts/Poppins-Italic.ttf");
   font-style: italic;
   font-weight: normal;
   font-family: "Poppins";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Poppins-Bold.ttf");
+  src: url("/vendor/fonts/Poppins-Bold.ttf");
   font-style: normal;
   font-weight: bold;
   font-family: "Poppins";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Poppins-BoldItalic.ttf");
+  src: url("/vendor/fonts/Poppins-BoldItalic.ttf");
   font-style: italic;
   font-weight: bold;
   font-family: "Poppins";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Poppins-Light.ttf");
+  src: url("/vendor/fonts/Poppins-Light.ttf");
   font-style: normal;
   font-weight: 200;
   font-family: "Poppins";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Poppins-LightItalic.ttf");
+  src: url("/vendor/fonts/Poppins-LightItalic.ttf");
   font-style: italic;
   font-weight: 200;
   font-family: "Poppins";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Raleway-Regular.ttf");
+  src: url("/vendor/fonts/Raleway-Regular.ttf");
   font-style: normal;
   font-weight: normal;
   font-family: "Raleway";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Raleway-Italic.ttf");
+  src: url("/vendor/fonts/Raleway-Italic.ttf");
   font-style: italic;
   font-weight: normal;
   font-family: "Raleway";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Raleway-Bold.ttf");
+  src: url("/vendor/fonts/Raleway-Bold.ttf");
   font-style: normal;
   font-weight: bold;
   font-family: "Raleway";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Raleway-BoldItalic.ttf");
+  src: url("/vendor/fonts/Raleway-BoldItalic.ttf");
   font-style: italic;
   font-weight: bold;
   font-family: "Raleway";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Raleway-Light.ttf");
+  src: url("/vendor/fonts/Raleway-Light.ttf");
   font-style: normal;
   font-weight: 200;
   font-family: "Raleway";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Raleway-LightItalic.ttf");
+  src: url("/vendor/fonts/Raleway-LightItalic.ttf");
   font-style: italic;
   font-weight: 200;
   font-family: "Raleway";
 }
 
 @font-face {
-  src: url("../../lib/fonts/OpenSans-Regular.ttf");
+  src: url("/vendor/fonts/OpenSans-Regular.ttf");
   font-style: normal;
   font-weight: normal;
   font-family: "Open Sans";
 }
 
 @font-face {
-  src: url("../../lib/fonts/OpenSans-Italic.ttf");
+  src: url("/vendor/fonts/OpenSans-Italic.ttf");
   font-style: italic;
   font-weight: normal;
   font-family: "Open Sans";
 }
 
 @font-face {
-  src: url("../../lib/fonts/OpenSans-Bold.ttf");
+  src: url("/vendor/fonts/OpenSans-Bold.ttf");
   font-style: normal;
   font-weight: bold;
   font-family: "Open Sans";
 }
 
 @font-face {
-  src: url("../../lib/fonts/OpenSans-BoldItalic.ttf");
+  src: url("/vendor/fonts/OpenSans-BoldItalic.ttf");
   font-style: italic;
   font-weight: bold;
   font-family: "Open Sans";
 }
 
 @font-face {
-  src: url("../../lib/fonts/OpenSans-Light.ttf");
+  src: url("/vendor/fonts/OpenSans-Light.ttf");
   font-style: normal;
   font-weight: 200;
   font-family: "Open Sans";
 }
 
 @font-face {
-  src: url("../../lib/fonts/OpenSans-LightItalic.ttf");
+  src: url("/vendor/fonts/OpenSans-LightItalic.ttf");
   font-style: italic;
   font-weight: 200;
   font-family: "Open Sans";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Montserrat-Regular.ttf");
+  src: url("/vendor/fonts/Montserrat-Regular.ttf");
   font-style: normal;
   font-weight: normal;
   font-family: "Montserrat";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Montserrat-Italic.ttf");
+  src: url("/vendor/fonts/Montserrat-Italic.ttf");
   font-style: italic;
   font-weight: normal;
   font-family: "Montserrat";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Montserrat-Bold.ttf");
+  src: url("/vendor/fonts/Montserrat-Bold.ttf");
   font-style: normal;
   font-weight: bold;
   font-family: "Montserrat";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Montserrat-BoldItalic.ttf");
+  src: url("/vendor/fonts/Montserrat-BoldItalic.ttf");
   font-style: italic;
   font-weight: bold;
   font-family: "Montserrat";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Montserrat-Light.ttf");
+  src: url("/vendor/fonts/Montserrat-Light.ttf");
   font-style: normal;
   font-weight: 200;
   font-family: "Montserrat";
 }
 
 @font-face {
-  src: url("../../lib/fonts/Montserrat-LightItalic.ttf");
+  src: url("/vendor/fonts/Montserrat-LightItalic.ttf");
   font-style: italic;
   font-weight: 200;
   font-family: "Montserrat";
 }
 
 @font-face {
-  font-family: 'Circular STD';
-  src: url("../../lib/fonts/CircularStdFont.otf");
+  font-family: "Circular STD";
+  src: url("/vendor/fonts/CircularStdFont.otf");
 }
 
 @font-face {
   font-family: "Cartogothic STD";
-  src: url("../../lib/fonts/cartogothic_std.otf");
+  src: url("/vendor/fonts/cartogothic_std.otf");
 }
 
 .catamaran {
-  font-family: 'Catamaran', sans-serif;
+  font-family: "Catamaran", sans-serif;
 }
 
 .circular {
-  font-family: 'Circular STD', sans-serif;
+  font-family: "Circular STD", sans-serif;
 }
 
-.cartogothic, .courseSelect select {
-  font-family: 'Cartogothic STD', sans-serif;
+.cartogothic,
+.courseSelect select {
+  font-family: "Cartogothic STD", sans-serif;
 }
 
 .poppins {
   font-family: "Poppins", sans-serif;
 }
 
-.montserrat, nav input, nav a, div.section-2 .colored .intro-text, div.section-2 .colored a, div.section-3 .courseNav > div a, div.section-3 .tut-card .body .price, .teach-learn-section h2.title-h2, .teach-learn-section .parent p {
+.montserrat,
+.teach-learn-section .parent p,
+.teach-learn-section h2.title-h2,
+div.section-3 .tut-card .body .price,
+div.section-3 .courseNav > div a,
+div.section-2 .colored a,
+div.section-2 .colored .intro-text,
+nav a,
+nav input {
   font-family: "Montserrat", sans-serif;
 }
 
@@ -4334,7 +4352,13 @@ ul.h-menu li {
   font-family: "Open Sans", sans-serif;
 }
 
-.quicksand, .drawer .divider, .drawer a, .parallax-section .parallax-content p, .teach-learn-section .parent h3, .teach-learn-section .parent a, .final-call-to-action a {
+.quicksand,
+.final-call-to-action a,
+.teach-learn-section .parent a,
+.teach-learn-section .parent h3,
+.parallax-section .parallax-content p,
+.drawer a,
+.drawer .divider {
   font-family: "QuickSand", sans-serif;
 }
 
@@ -4344,15 +4368,13 @@ ul.h-menu li {
 
 @media only screen and (min-width: 1200px) {
   .card-grid {
-    -ms-grid-columns: (minmax(350px, 1fr))[3];
-        grid-template-columns: repeat(3, minmax(350px, 1fr));
+    grid-template-columns: repeat(3, minmax(350px, 1fr));
   }
 }
 
 @media only screen and (min-width: 1000px) {
   .tut-grid {
-    -ms-grid-columns: (minmax(180px, 1fr))[4];
-        grid-template-columns: repeat(4, minmax(180px, 1fr));
+    grid-template-columns: repeat(4, minmax(180px, 1fr));
   }
 }
 
@@ -4360,9 +4382,11 @@ ul.h-menu li {
   #backgroundVideo .hero-content .banner-text {
     font-size: 5rem;
   }
+
   #backgroundVideo .hero-content h1 {
     font-size: 3rem;
   }
+
   div.section-2 .colored {
     padding-left: 50px;
   }
@@ -4378,6 +4402,7 @@ ul.h-menu li {
   #backgroundVideo .hero-content .banner-text {
     margin-bottom: 40px;
   }
+
   .teach-learn-section h2.title-h2 {
     font-size: 1.85rem;
   }
@@ -4387,15 +4412,19 @@ ul.h-menu li {
   #backgroundVideo .hero-content .banner-text {
     font-size: 4rem;
   }
+
   #backgroundVideo .hero-content h1 {
     font-size: 2.5rem;
   }
+
   .category-section .category-card p {
     font-size: 16px;
   }
+
   .category-section .category-card img {
     height: 30px;
   }
+
   .owl-carousel p {
     font-size: 17px;
   }
@@ -4403,8 +4432,7 @@ ul.h-menu li {
 
 @media only screen and (max-width: 930px) {
   .card-grid {
-    -ms-grid-columns: (minmax(250px, 1fr))[auto-fill];
-        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   }
 }
 
@@ -4412,26 +4440,33 @@ ul.h-menu li {
   .hero {
     height: 150vh;
   }
+
   .hero #backgroundVideo .hero-content {
     height: 150vh;
   }
+
   .hero #backgroundVideo .hero-content .banner-text {
     font-size: 3.56rem;
   }
+
   .hero #backgroundVideo .hero-content h1 {
     font-size: 2.25rem;
   }
+
   .hero #backgroundVideo .hero-content p {
     font-size: 19px;
   }
+
   .hero #backgroundVideo .hero-content input {
     font-size: 16px;
   }
+
   .hero #backgroundVideo .videoContainer {
     height: 150vh;
     min-height: 450px;
     width: 100%;
   }
+
   .hero #backgroundVideo video {
     height: 150vh;
     min-height: 450px;
@@ -4443,7 +4478,7 @@ ul.h-menu li {
 
 @media only screen and (max-width: 847px) {
   div.section-3 .courseNav a {
-    font-size: .85rem;
+    font-size: 0.85rem;
   }
 }
 
@@ -4451,9 +4486,11 @@ ul.h-menu li {
   div.section-2 .colored .intro-title {
     font-size: 2.5rem;
   }
+
   div.section-3 h1 {
     font-size: 2.25rem;
   }
+
   .parallax-section .parallax-content h1 {
     font-size: 2.75rem;
   }
@@ -4461,9 +4498,9 @@ ul.h-menu li {
 
 @media only screen and (max-width: 770px) {
   .category-grid {
-    -ms-grid-columns: (minmax(210px, 1fr))[auto-fill];
-        grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
   }
+
   .owl-carousel p {
     font-size: 15px;
   }
@@ -4473,6 +4510,7 @@ ul.h-menu li {
   div.uniform-square {
     margin-bottom: 20px;
   }
+
   .intro-background {
     display: none;
   }
@@ -4483,17 +4521,18 @@ ul.h-menu li {
     font-size: 3rem;
     margin-bottom: 20px;
   }
+
   div.section-3 .courseNav a {
-    font-size: .75rem;
+    font-size: 0.75rem;
   }
 }
 
 @media only screen and (min-width: 690px) {
   div.section-3 .courseNav {
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
+
   div.section-3 .courseSelect {
     display: none;
   }
@@ -4503,9 +4542,9 @@ ul.h-menu li {
   div.section-3 .courseNav {
     display: none;
   }
+
   div.section-3 .courseSelect {
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
 }
@@ -4515,10 +4554,12 @@ ul.h-menu li {
     width: 100%;
     height: 130vh;
   }
+
   #backgroundVideo .videoContainer {
     height: 130vh;
     width: 100%;
   }
+
   #backgroundVideo video {
     height: 130vh;
     width: 100%;
@@ -4531,6 +4572,7 @@ ul.h-menu li {
   h1.sqmarket {
     font-size: 2rem;
   }
+
   div.section-3 h1 {
     font-size: 2rem;
   }
@@ -4540,6 +4582,7 @@ ul.h-menu li {
   .parallax-section .parallax-content h1 {
     font-size: 2.55rem;
   }
+
   .teach-learn-section h2.title-h2 {
     font-size: 1.45rem;
   }
@@ -4549,21 +4592,27 @@ ul.h-menu li {
   .parallax-section .parallax-content h1 {
     font-size: 2.25rem;
   }
+
   h1.sqmarket {
     font-size: 1.75rem;
   }
+
   .hero #backgroundVideo .hero-content .banner-text {
     font-size: 2.75rem;
   }
+
   .hero #backgroundVideo .hero-content h1 {
     font-size: 2rem;
   }
+
   .hero #backgroundVideo .hero-content p {
     font-size: 18px;
   }
+
   .hero #backgroundVideo .hero-content input {
     font-size: 15px;
   }
+
   div.section-2 .colored .intro-title {
     font-size: 2.25rem;
   }
@@ -4571,9 +4620,9 @@ ul.h-menu li {
 
 @media only screen and (max-width: 415px) {
   .copy-right {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
+
   .copy-right .social {
     margin-top: 15px;
   }
@@ -4583,6 +4632,7 @@ ul.h-menu li {
   .hero #backgroundVideo .hero-content .banner-text {
     font-size: 2.25rem;
   }
+
   .hero #backgroundVideo .hero-content h1 {
     font-size: 1.8rem;
   }
@@ -4592,9 +4642,11 @@ ul.h-menu li {
   .hero #backgroundVideo .hero-content .banner-text {
     font-size: 2rem;
   }
+
   .hero #backgroundVideo .hero-content h1 {
     font-size: 1.7rem;
   }
+
   div.section-2 .colored .intro-title {
     font-size: 2rem;
   }
@@ -4602,23 +4654,18 @@ ul.h-menu li {
 
 nav {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
           flex-direction: row;
   background-color: white;
   border-bottom: 1px solid #ddd;
   height: 80px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
           align-items: center;
   padding: 30px;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  justify-content: space-around;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 nav .brandDiv {
@@ -4680,13 +4727,10 @@ nav .number {
   width: 19px;
   height: 19px;
   display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
           align-items: center;
   border-radius: 50%;
 }
@@ -4700,7 +4744,7 @@ nav input {
   border-radius: 2px;
   font-size: 13px;
   width: 28vw;
-  background-image: url("../images/icons/search.png");
+  background-image: url(/images/search.png?1795733fdbc9cc44004389885761687c);
   background-repeat: no-repeat;
   background-size: 15px;
   background-position: calc(100% - 10px) center;
@@ -4755,14 +4799,11 @@ nav a.signupBtn {
   left: -290%;
   background-color: white;
   border-right: 1px solid #dddddd;
-  -webkit-box-shadow: -2px 0 8px 4px rgba(0, 0, 0, 0.1);
-          box-shadow: -2px 0 8px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: -2px 0 8px 4px rgba(0, 0, 0, 0.1);
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
           flex-direction: column;
   padding: 20px 0;
 }
@@ -4776,7 +4817,7 @@ nav a.signupBtn {
 }
 
 .drawer .divider.divide::after {
-  content: '';
+  content: "";
   position: absolute;
   top: calc(100% + 2px);
   left: 0;
@@ -4817,8 +4858,8 @@ nav a.signupBtn {
 
 .drawer a img {
   width: 18px;
-  -webkit-transition: .9s;
-  transition: .9s;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
   margin-right: 10px;
   margin-left: 10px;
 }
@@ -4836,14 +4877,11 @@ nav a.signupBtn {
   left: 0;
   color: white;
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
           flex-direction: row;
   -webkit-box-align: center;
-      -ms-flex-align: center;
           align-items: center;
 }
 
@@ -4937,7 +4975,6 @@ div.section-1 {
 div.section-1 .card {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
           flex-direction: row;
 }
 
@@ -4956,7 +4993,8 @@ div.section-2 {
   min-height: 100vh;
 }
 
-div.section-2 .row, div.section-2 .container-fluid {
+div.section-2 .row,
+div.section-2 .container-fluid {
   min-height: 100vh;
 }
 
@@ -4966,14 +5004,11 @@ div.section-2 .colored {
   padding-right: 40px;
   background-color: #0b3080;
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
           flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
           justify-content: center;
 }
 
@@ -5006,7 +5041,7 @@ div.section-2 .colored a:hover {
 }
 
 div.section-2 .background-1 {
-  background-image: url("../images/background1.jpg");
+  background-image: url(/images/background1.jpg?68c512f7ed7d3bcb002fc165d0bcc19c);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -5023,14 +5058,11 @@ div.section-3 h1 {
 
 div.section-3 .courseNav {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
           flex-direction: row;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
           justify-content: center;
   margin-top: 20px;
 }
@@ -5056,8 +5088,7 @@ div.section-3 .courseNav > div a:hover {
 
 div.section-3 .tut-card {
   background-color: white;
-  -webkit-box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.05);
-          box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.05);
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.05);
   width: 100%;
   border: 1px solid #ddd;
   border-radius: 3px;
@@ -5082,7 +5113,8 @@ div.section-3 .tut-card .body .title {
   font-size: 17px;
 }
 
-div.section-3 .tut-card .body .duration, div.section-3 .tut-card .body .number {
+div.section-3 .tut-card .body .duration,
+div.section-3 .tut-card .body .number {
   color: #666666;
   font-size: 12px;
   margin: 5px 0;
@@ -5101,10 +5133,8 @@ div.section-3 .course-content {
 
 div.section-3 .course-content .call-to-action {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
           justify-content: center;
   margin-top: 20px;
 }
@@ -5123,7 +5153,7 @@ div.section-3 .course-content .call-to-action a:hover {
 }
 
 .parallax-section {
-  background-image: url("../images/background1.jpg");
+  background-image: url(/images/background1.jpg?68c512f7ed7d3bcb002fc165d0bcc19c);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -5135,11 +5165,9 @@ div.section-3 .course-content .call-to-action a:hover {
   z-index: 100;
   color: #eee;
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
           flex-direction: column;
 }
 
@@ -5166,7 +5194,7 @@ div.section-3 .course-content .call-to-action a:hover {
 }
 
 .parallax-section::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -5188,23 +5216,18 @@ div.section-3 .course-content .call-to-action a:hover {
 
 .category-section .category-card {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
           flex-direction: row;
   background-color: white;
   padding: 20px 30px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
           align-items: center;
-  -webkit-transition-duration: .5s;
-          transition-duration: .5s;
-  -webkit-transition-property: -webkit-box-shadow;
-  transition-property: -webkit-box-shadow;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  -webkit-transition-property: box-shadow;
   transition-property: box-shadow;
-  transition-property: box-shadow, -webkit-box-shadow;
   cursor: pointer;
   border: 1px solid #dddddd;
   border-radius: 3px;
@@ -5212,8 +5235,7 @@ div.section-3 .course-content .call-to-action a:hover {
 }
 
 .category-section .category-card:hover {
-  -webkit-box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.2);
 }
 
 .category-section .category-card img {
@@ -5236,22 +5258,21 @@ div.section-3 .course-content .call-to-action a:hover {
   min-height: 100vh;
 }
 
-.fullHeightCont .row, .fullHeightCont .container-fluid {
+.fullHeightCont .row,
+.fullHeightCont .container-fluid {
   min-height: 100vh;
 }
 
-.fullHeightCont .row [class^="col-md"], .fullHeightCont .container-fluid [class^="col-md"] {
+.fullHeightCont .row [class^=col-md],
+.fullHeightCont .container-fluid [class^=col-md] {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
           flex-direction: row;
   padding: 50px 100px;
   padding-left: 130px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
           align-items: center;
 }
 
@@ -5315,7 +5336,7 @@ div.section-3 .course-content .call-to-action a:hover {
 }
 
 .teach-learn-section .teach {
-  background-image: url("../images/background2.jpg");
+  background-image: url(/images/background2.jpg?fd8b81a030408321d01df1c0f8b1fa1d);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -5323,21 +5344,17 @@ div.section-3 .course-content .call-to-action a:hover {
   color: white;
   min-height: 50vh;
   border-radius: 9px;
-  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.35);
-          box-shadow: 0 3px 9px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.35);
   perspective: 500px;
   -webkit-perspective: 500px;
   -moz-perspective: 500px;
   -o-perspective: 500px;
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
           flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
           justify-content: center;
   cursor: pointer;
 }
@@ -5359,7 +5376,7 @@ div.section-3 .course-content .call-to-action a:hover {
 }
 
 .teach-learn-section .learn {
-  background-image: url("../images/background4.jpg");
+  background-image: url(/images/background4.jpg?f18a4f9b1b7b7561ca30a63b549662de);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -5367,21 +5384,17 @@ div.section-3 .course-content .call-to-action a:hover {
   color: white;
   min-height: 50vh;
   border-radius: 9px;
-  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.35);
-          box-shadow: 0 3px 9px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.35);
   perspective: 500px;
   -webkit-perspective: 500px;
   -moz-perspective: 500px;
   -o-perspective: 500px;
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
           flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
           justify-content: center;
   cursor: pointer;
 }
@@ -5405,14 +5418,11 @@ div.section-3 .course-content .call-to-action a:hover {
 
 .final-call-to-action .wrapper {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
           flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
           align-items: center;
 }
 
@@ -5425,14 +5435,14 @@ div.section-3 .course-content .call-to-action a:hover {
   margin-top: 20px;
   font-size: 17px;
   border-bottom: 3px solid #f63737;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .final-call-to-action a i {
   margin-left: 8px;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .final-call-to-action a:hover {
@@ -5452,11 +5462,9 @@ footer {
 
 footer .items {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
           flex-direction: column;
 }
 
@@ -5468,19 +5476,15 @@ footer .items a {
 
 footer .copy-right {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
           flex-direction: row;
   height: 40px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
           align-items: center;
   margin-top: 50px;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
@@ -5490,11 +5494,9 @@ footer .copy-right p {
 
 footer .copy-right .social {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
           flex-direction: row;
 }
 
@@ -5508,10 +5510,8 @@ footer .copy-right .social a {
 .courseSelect {
   width: 100%;
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
           justify-content: center;
 }
 
@@ -5535,12 +5535,11 @@ footer .copy-right .social a {
 .tut-grid {
   margin-top: 15px;
   margin-bottom: 15px;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(200px, 1fr))[auto-fill];
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-auto-rows: minmax(150px, auto);
   -webkit-column-gap: 15px;
+     -moz-column-gap: 15px;
           column-gap: 15px;
   row-gap: 30px;
 }
@@ -5548,12 +5547,11 @@ footer .copy-right .social a {
 .card-grid {
   margin-top: 15px;
   margin-bottom: 15px;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: minmax(150px, auto);
   -webkit-column-gap: 15px;
+     -moz-column-gap: 15px;
           column-gap: 15px;
   row-gap: 30px;
 }
@@ -5561,12 +5559,11 @@ footer .copy-right .social a {
 .category-grid {
   margin-top: 15px;
   margin-bottom: 15px;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: minmax(80px, auto);
   -webkit-column-gap: 15px;
+     -moz-column-gap: 15px;
           column-gap: 15px;
   row-gap: 15px;
 }
@@ -5587,22 +5584,28 @@ footer .copy-right .social a {
   nav .large-navs {
     display: none;
   }
+
   nav .cartDiv {
     margin-left: auto;
   }
+
   nav input.search {
     width: 30vw;
     min-width: 300px;
   }
+
   nav .patty {
     display: block;
   }
+
   nav .patty .hamburger {
     padding: 6px;
   }
+
   nav .patty .hamburger:hover {
     background-color: #f63737;
   }
+
   nav .patty .hamburger:hover div {
     background-color: #fff;
   }
@@ -5618,22 +5621,27 @@ footer .copy-right .social a {
   nav {
     padding: 30px 15px;
   }
+
   nav input.search {
     width: 50vw;
     max-width: 450px;
     min-width: 250px;
   }
+
   nav .auth {
     display: none;
   }
+
   #backgroundVideo {
     width: 100%;
     height: 100vh;
   }
+
   #backgroundVideo .videoContainer {
     height: 100vh;
     width: 100%;
   }
+
   #backgroundVideo video {
     height: 100vh;
     width: 100%;
@@ -5647,10 +5655,12 @@ footer .copy-right .social a {
     width: 100%;
     height: 130vh;
   }
+
   #backgroundVideo .videoContainer {
     height: 130vh;
     width: 100%;
   }
+
   #backgroundVideo video {
     height: 130vh;
     width: 100%;
@@ -5677,11 +5687,13 @@ footer .copy-right .social a {
   nav > div.searchDiv {
     display: none;
   }
+
   nav > div.brandDiv {
     margin: 0 auto;
   }
+
   nav > div.cartDiv {
     margin-left: 0;
   }
 }
-/*# sourceMappingURL=homepage.css.map */
+

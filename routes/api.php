@@ -16,3 +16,11 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::namespace('User')->group(function() {
+    Route::post('register', 'RegistrationController@register');
+    Route::post('login', 'LoginController@authenticateUser');
+
+    Route::get('oauth/{auth_provider}', 'RegistrationController@redirectToProvider');
+    Route::get('oauth/{auth_provider}/callback', 'RegistrationController@handleProviderCallback');
+});

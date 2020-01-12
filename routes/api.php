@@ -18,9 +18,9 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::namespace('User')->group(function() {
-    Route::post('register', 'RegistrationController@register');
-    Route::post('login', 'LoginController@authenticateUser');
+    Route::post('register', 'AuthenticationController@register');
+    Route::post('login', 'AuthenticationController@authenticateUser');
 
-    Route::get('oauth/{auth_provider}', 'RegistrationController@redirectToProvider');
-    Route::get('oauth/{auth_provider}/callback', 'RegistrationController@handleProviderCallback');
+    Route::get('oauth/{auth_provider}', 'AuthenticationController@redirectToProvider');
+    Route::get('oauth/{auth_provider}/callback', 'AuthenticationController@handleProviderCallback');
 });
